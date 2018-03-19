@@ -53,7 +53,7 @@ namespace KEngine
 #if UNITY_5_5 || UNITY_2017_1_OR_NEWER
 				UnityEngine.Profiling.Profiler.GetRuntimeMemorySize(theObject) / 1024f
 #else
-                UnityEngine.Profiler.GetRuntimeMemorySize(theObject) / 1024f
+                UnityEngine.Profiling.Profiler.GetRuntimeMemorySize(theObject) / 1024f
 #endif
 			);
             return newHelp;

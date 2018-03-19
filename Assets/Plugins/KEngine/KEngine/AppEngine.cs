@@ -337,7 +337,7 @@ namespace KEngine
 #if UNITY_5_5 || UNITY_2017_1_OR_NEWER
 					UnityEngine.Profiling.Profiler.GetMonoUsedSize() / 1024f
 #else
-					UnityEngine.Profiler.GetMonoUsedSize() / 1024f
+					UnityEngine.Profiling.Profiler.GetMonoUsedSize() / 1024f
 #endif
 				);
                 _cacheFPSStr = Watch("FPS: {0:N0}", 1f / Time.deltaTime);
